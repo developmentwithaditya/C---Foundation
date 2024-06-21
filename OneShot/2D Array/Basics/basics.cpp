@@ -18,7 +18,7 @@ int main()
 
     // Initialization - [][] / arr[][] = {{1,2,3},{4,5,6},{7,8,9}}
 
-    int arr[3][3];
+    int arr[4][3];
 
     // [0] = Student 1 , [0] = subject
     arr[0][0] = 88;
@@ -34,6 +34,11 @@ int main()
     arr[2][0] = 76;
     arr[2][1] = 56;
     arr[2][2] = 83;
+
+ // [3] = Student 4 , [0] = subject
+    arr[3][0] = 34;
+    arr[3][1] = 32;
+    arr[3][2] = 65;
 
     // Updatation
     arr[0][1] = 100;
@@ -60,7 +65,7 @@ int main()
     // for loop
     cout << "Accessing 2D array element using for loop : " << endl;
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 3; j++)
         {
